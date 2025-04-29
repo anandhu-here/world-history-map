@@ -20,7 +20,7 @@ const TimelineControls: React.FC<TimelineControlsProps> = ({
     const speeds: number[] = [0.5, 1, 1.5, 2];
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 bg-white bg-opacity-90 backdrop-filter backdrop-blur-sm shadow-lg z-20">
+        <div className="fixed bottom-0 left-0 right-0 bg-opacity-90 backdrop-filter backdrop-blur-sm shadow-lg z-20">
             <div className="max-w-screen-xl mx-auto px-4 py-2">
                 {/* Progress bar */}
                 <div className="h-1 w-full bg-gray-200 rounded-full mb-2">
